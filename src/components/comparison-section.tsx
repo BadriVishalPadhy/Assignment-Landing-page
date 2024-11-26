@@ -22,10 +22,10 @@ export function ComparisonSection() {
               <tr className="border-b border-gray-800">
                 <th className="text-left py-4">Comparison</th>
                 <th className="text-center py-4">
-                  <div className="flex items-center justify-center gap-2">
+                  <div className="flex items-center justify-center ">
                   <img src="/moon-icon.png" alt="MoonEX Logo" className="w-8 h-8" />
                     <div/>
-                    MoonEX
+                  <img className="w-40 h-12 pt-3" src="/moonex.png" alt="" />
                   </div>
                 </th>
                 <th className="text-center py-4">

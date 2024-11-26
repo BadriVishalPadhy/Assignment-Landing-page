@@ -5,32 +5,31 @@ import { Orbits } from './Orbits'
 
 export const HeroSection: FC = () => {
   return (
-    <section  className="relative min-h-screen pt-52 overflow-hidden  font-fira bg-[url('/public/background.png')]">
+    <section className="relative min-h-screen pt-20 md:pt-52 overflow-hidden font-fira bg-[url('/public/background.png')] flex flex-col justify-center items-center md:block">
       <Orbits />
       
-      {/* Main sphere */}
-      <div className="absolute bottom-2 right-0 w-72 h-72 md:w-96 md:h-96">
+      {/* Main sphere - hidden on mobile */}
+      <div className="absolute top-2/4 right-0 w-72 h-72 lg:w-96 lg:h-96 hidden md:block">
         <Sphere className="w-full h-full" />
       </div>
 
-      <div className="container relative z-20 mx-
-auto px-10 pt-50">
-        <div className="">
-          <h1 className="text-4xl md:text-7xl font-extrabold mb-6">
+      <div className="container relative z-20 mx-auto px-10 pt-50 flex flex-col items-center md:items-start">
+        <div className="text-center md:text-left">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
             Trusted Multi-Chain
-            <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center md:justify-start gap-2">
               <span className="text-yellow-500">DEX</span>
               <span className="text-white">Platform</span>
             </div>
           </h1>
-          <p className="text-gray-400 text-lg mb-8">
+          <p className="text-xl text-gray-400 mb-8">
             Trade, earn, and own crypto on the all-in-one multi-chain DEX
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Button className="bg-yellow-500 text-black hover:bg-yellow-400 transition-colors px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
+            <Button className="w-full sm:w-auto bg-yellow-500 text-black hover:bg-yellow-400 transition-colors px-8 text-lg md:text-base">
               Connect Wallet
             </Button>
-            <Button variant="outline" className="border-yellow-500 text-yellow-500 hover:bg-yellow-500/10 transition-colors px-8">
+            <Button variant="outline" className="w-full sm:w-auto border-yellow-500 text-yellow-500 hover:bg-yellow-500/10 transition-colors px-8 text-lg md:text-base">
               Trade Crypto
             </Button>
           </div>
