@@ -11,15 +11,15 @@ export const NavBar: FC = () => {
   }
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/20 ">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/10 ">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center ">
-            <img src="/moon-icon.png" alt="MoonEX Logo" className="w-8 h-8" />
-            <img className="w-36 h-11 pt-3" src="/moonex.png" alt="" />
+            <img src="/moon-icon.png" alt="MoonEX Logo" className="w-20 h-20" />
+            <img className="w-44 h-11 pt-3" src="/moonex.png" alt="" />
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-24 text-lg font-semibold">
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">Home</a>
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">About Us</a>
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">Roadmap</a>
@@ -28,7 +28,7 @@ export const NavBar: FC = () => {
           </div>
 
           <div className="hidden md:block">
-            <Button className="bg-yellow-500 text-black hover:bg-yellow-400 transition-colors">
+          <Button className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-200 text-black hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-500 transition-all duration-300 px-6 py-6">
               Connect Wallet
             </Button>
           </div>

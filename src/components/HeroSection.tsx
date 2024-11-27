@@ -26,10 +26,10 @@ export const HeroSection: FC = () => {
             Trade, earn, and own crypto on the all-in-one multi-chain DEX
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-            <Button className="w-full sm:w-auto bg-yellow-500 text-black hover:bg-yellow-400 transition-colors px-8 text-lg md:text-base">
+          <Button className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-200 text-black hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-500 transition-all duration-300 px-6 py-6">
               Connect Wallet
             </Button>
-            <Button variant="outline" className="w-full sm:w-auto border-yellow-500 text-yellow-500 hover:bg-yellow-500/10 transition-colors px-8 text-lg md:text-base">
+            <Button variant="outline" className="w-full sm:w-auto border-yellow-500 text-yellow-500 hover:bg-yellow-500/10 transition-colors px-6 py-6 text-lg md:text-base">
               Trade Crypto
             </Button>
           </div>

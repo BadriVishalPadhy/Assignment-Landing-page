@@ -2,21 +2,8 @@ import { FC } from "react";
 
 export const Orbits: FC = () => {
   return (
-    <div className="absolute inset-0 overflow-hidden">
-      {/* <svg width="54" height="46" viewBox="0 0 54 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M40.4708 0C34.0714 10.8962 30.5357 16.33 26.9708 16.33C23.4058 16.33 19.8701 10.8962 13.5 0C19.8701 10.8962 22.9091 16.6462 21.1266 19.665C19.3442 22.6838 12.7695 23 0 23C13.237 23 19.8117 23.3162 21.3019 26.6512C22.7045 29.7562 19.6656 35.4775 13.5 46C19.8993 35.1037 23.4351 29.67 27 29.67C30.5649 29.67 34.1007 35.1037 40.5 46C33.7208 34.4137 30.7403 28.6637 33.2532 25.7887C35.474 23.2587 42.0195 23 54 23C40.5 23 33.9253 22.655 32.6104 19.1187C31.4123 15.9562 34.4513 10.2638 40.4708 0Z" fill="white"/>
-</svg>
-
-<svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M30.5 0L32.8344 24.4567L52.0668 8.7868L36.1357 27.7039L61 30L36.1357 32.2961L52.0668 51.2132L32.8344 35.5433L30.5 60L28.1656 35.5433L8.93324 51.2132L24.8643 32.2961L0 30L24.8643 27.7039L8.93324 8.7868L28.1656 24.4567L30.5 0Z" fill="white"/>
-</svg>
-
-
-<svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M30.5 0L32.8344 24.4567L52.0668 8.7868L36.1357 27.7039L61 30L36.1357 32.2961L52.0668 51.2132L32.8344 35.5433L30.5 60L28.1656 35.5433L8.93324 51.2132L24.8643 32.2961L0 30L24.8643 27.7039L8.93324 8.7868L28.1656 24.4567L30.5 0Z" fill="white"/>
-</svg> */}
-
-
+    <div className="absolute inset-0 ">
+      {/* Existing orbits SVGs */}
       <svg
         className="absolute w-full h-full"
         viewBox="999 -20 99 1005"
@@ -88,12 +75,56 @@ export const Orbits: FC = () => {
             y2="921.813"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#484848" />
-            <stop offset="0.491388" stop-color="#484848" stop-opacity="0.36" />
-            <stop offset="1" stop-color="#484848" />
+            <stop stopColor="#484848" />
+            <stop offset="0.491388" stopColor="#484848" stopOpacity="0.36" />
+            <stop offset="1" stopColor="#484848" />
           </linearGradient>
         </defs>
+      </svg>
+
+      {/* New star SVGs */}
+      <svg
+        width="54"
+        height="46"
+        viewBox="0 0 54 46"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute top-56 right-56 animate-twinkle hidden md:block"
+      >
+        <path
+          d="M40.4708 0C34.0714 10.8962 30.5357 16.33 26.9708 16.33C23.4058 16.33 19.8701 10.8962 13.5 0C19.8701 10.8962 22.9091 16.6462 21.1266 19.665C19.3442 22.6838 12.7695 23 0 23C13.237 23 19.8117 23.3162 21.3019 26.6512C22.7045 29.7562 19.6656 35.4775 13.5 46C19.8993 35.1037 23.4351 29.67 27 29.67C30.5649 29.67 34.1007 35.1037 40.5 46C33.7208 34.4137 30.7403 28.6637 33.2532 25.7887C35.474 23.2587 42.0195 23 54 23C40.5 23 33.9253 22.655 32.6104 19.1187C31.4123 15.9562 34.4513 10.2638 40.4708 0Z"
+          fill="white"
+        />
+      </svg>
+
+      <svg
+        width="61"
+        height="60"
+        viewBox="0 0 61 60"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg" 
+        className="absolute  top-28 left-28  animate-twinkle animation-delay-200 hidden md:block"
+      >
+        <path
+          d="M30.5 0L32.8344 24.4567L52.0668 8.7868L36.1357 27.7039L61 30L36.1357 32.2961L52.0668 51.2132L32.8344 35.5433L30.5 60L28.1656 35.5433L8.93324 51.2132L24.8643 32.2961L0 30L24.8643 27.7039L8.93324 8.7868L28.1656 24.4567L30.5 0Z"
+          fill="white"
+        />
+      </svg>
+
+      <svg
+        width="61"
+        height="60"
+        viewBox="0 0 61 60"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute bottom-8 left-1/3 animate-twinkle animation-delay-400 hidden md:block"
+      >
+        <path
+          d="M30.5 0L32.8344 24.4567L52.0668 8.7868L36.1357 27.7039L61 30L36.1357 32.2961L52.0668 51.2132L32.8344 35.5433L30.5 60L28.1656 35.5433L8.93324 51.2132L24.8643 32.2961L0 30L24.8643 27.7039L8.93324 8.7868L28.1656 24.4567L30.5 0Z"
+          fill="white"
+        />
       </svg>
     </div>
   );
 };
+
