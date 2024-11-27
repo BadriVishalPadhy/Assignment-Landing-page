@@ -12,7 +12,7 @@ export function ComparisonSection() {
   return (
     <section className="py-16 md:py-24 from-[#0A1F1C] to-[#0A0B1F] relative overflow-hidden bg-[url('/image2.png')]">
       <div className="container px-4">
-        <h2 className="text-5xl font-bold mb-12">
+        <h2 className="text-5xl font-machina  font-bold mb-12">
           Why <span className="text-yellow-500">MoonEX</span> ?
         </h2>
         

@@ -1,3 +1,4 @@
+import { machine } from 'os';
 import { title } from 'process';
 
 /** @type {import('tailwindcss').Config} */
@@ -11,7 +12,8 @@ export default {
   	extend: {
 			fontFamily:{
 					title:["Raleway", "serif"],
-					fira:["Fira Code", "monospace"]
+					fira:["Fira Code", "monospace"],
+					machina:["PPNeueMachina-InktrapUltrabold"]
 			},
   		borderRadius: {
   			lg: 'var(--radius)',

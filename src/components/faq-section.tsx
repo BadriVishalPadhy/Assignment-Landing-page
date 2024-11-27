@@ -38,7 +38,7 @@ export const FaqSection: FC = () => {
       
       <div className="container px-4 max-w-4xl mx-auto relative z-10">
         <div className="bg-[#061724]/80 rounded-3xl p-8 md:p-12 backdrop-blur-sm border border-white/10 shadow-2xl">
-          <h2 className="text-4xl md:text-3xl font-bold mb-12 text-yellow-500 flex items-center justify-center">
+          <h2 className="text-4xl md:text-3xl font-machina  font-bold mb-12 text-yellow-500 flex items-center justify-center">
             FAQs
            
           </h2>

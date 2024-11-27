@@ -8,12 +8,11 @@
 :root {
   color-scheme: dark;
 }
-/* 
-@font-face{
-  font-family: "RubikScribble";
-  src:local("RubikScribble-Regular"),
-  url('./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf') 
-} */
+
+@font-face {
+  font-family: "PPNeueMachina-InktrapUltrabold";
+  src: url("./fonts/PPNeueMachina-InktrapUltrabold.ttf");
+}
 
 body {
   @apply bg-[#0A0B1F] text-white;

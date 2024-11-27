@@ -10,7 +10,7 @@ export const Sphere: FC<SphereProps> = ({ className }) => {
       <svg 
         width="259" 
         height="259" 
-        viewBox="0 0 389 389" 
+        viewBox="0 0 200 389" 
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"
         className="w-full h-full"

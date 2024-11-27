@@ -5,17 +5,17 @@ import { Orbits } from './Orbits'
 
 export const HeroSection: FC = () => {
   return (
-    <section className="relative min-h-screen pt-20 md:pt-52 overflow-hidden font-fira bg-[url('/public/background.png')] flex flex-col justify-center items-center md:block">
+    <section className="relative min-h-screen pt-20 md:pt-80 overflow-hidden font-machina bg-[url('/public/background.png')] flex flex-col justify-center items-center md:block">
       <Orbits />
       
       {/* Main sphere - hidden on mobile */}
-      <div className="absolute top-2/4 right-0 w-72 h-72 lg:w-96 lg:h-96 hidden md:block">
+      <div className="absolute top-64 right-0 w-72 h-72 lg:w-96 lg:h-96 hidden md:block">
         <Sphere className="w-full h-full" />
       </div>
 
       <div className="container relative z-20 mx-auto px-10 pt-50 flex flex-col items-center md:items-start">
         <div className="text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-machina font-bold mb-6">
             Trusted Multi-Chain
             <div className="flex items-center justify-center md:justify-start gap-2">
               <span className="text-yellow-500">DEX</span>
