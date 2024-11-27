@@ -7,7 +7,7 @@ export const Footer: FC = () => {
       <div className="container px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <img src="/moon-icon.png" alt="MoonEX Logo" className="w-8 h-8" />
+            <img src="/placeholder.svg" alt="MoonEX Logo" className="w-8 h-8" />
             <span className="text-xl font-bold">MoonEX</span>
           </div>
           
