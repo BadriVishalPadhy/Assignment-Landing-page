@@ -23,7 +23,7 @@ export function ComparisonSection() {
                 <th className="text-left font-machina text-xl md:text-3xl  py-4 text-yellow-500 w-1/3">Comparison</th>
                 <th className="text-center py-4 w-1/3 relative">
                   <div className="flex items-center  justify-center">
-                    <span className='bg-gradient-to-bl from-yellow-100 to-yellow-500 bg-clip-text text-transparent leading-normal  md:hidden text-xl md:text-3xl p-2'>Moonex</span>
+                    <span className='bg-gradient-to-bl from-yellow-100 to-yellow-500 bg-clip-text text-transparent leading-normal  md:hidden text-xl md:text-3xl '>Moonex</span>
                     <img src="/moon-icon.png" alt="MoonEX Logo" className="w-11 h-11 hidden md:block" />
                     <img className="w-60 md:w-80 h-20 pt-4 hidden md:block" src="/moonex.png" alt="" />
                   </div>
@@ -31,7 +31,7 @@ export function ComparisonSection() {
                 </th>
                 <th className="text-center py-4 w-1/3 relative">
                   <div className="flex items-center justify-center gap-2 text-pink-500 ">
-                  <span className=' text-lg p-2 md:hidden'>UNISWAP</span>
+                  <span className=' text-base md:hidden'>UNISWAP</span>
                     <img className='h-12 hidden md:block' src="/unis.png" alt="" />
                   </div>
                   <VerticalLine className="absolute left-0 top-0 h-full" />
