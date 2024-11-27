@@ -28,7 +28,7 @@ export function FeaturesSection() {
   return (
     <section className="py-24 ">
       <div className="container px-4">
-        <h2 className="text-3xl font-bold mb-12">
+        <h2 className="text-5xl gap-3 flex items-center justify-center font-bold mb-12">
           Our <span className="text-yellow-500">Features</span>
         </h2>
         

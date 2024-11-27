@@ -38,9 +38,9 @@ export const FaqSection: FC = () => {
       
       <div className="container px-4 max-w-4xl mx-auto relative z-10">
         <div className="bg-[#061724]/80 rounded-3xl p-8 md:p-12 backdrop-blur-sm border border-white/10 shadow-2xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-yellow-500 flex items-center">
+          <h2 className="text-4xl md:text-3xl font-bold mb-12 text-yellow-500 flex items-center justify-center">
             FAQs
-            <span className="ml-4 h-1 w-12 bg-yellow-500 inline-block" />
+           
           </h2>
           
           <div className="space-y-4">
