@@ -20,10 +20,10 @@ export function ComparisonSection() {
           <table className="w-full">
             <thead>
               <tr className="border-b border-gray-800">
-                <th className="text-left text-4xl font-fira py-4 text-yellow-500 w-1/3">Comparison</th>
+                <th className="text-left text-xl md:text-3xl font-fira py-4 text-yellow-500 w-1/3">Comparison</th>
                 <th className="text-center py-4 w-1/3 relative">
                   <div className="flex items-center justify-center">
-                    <img src="/moon-icon.png" alt="MoonEX Logo" className="w-11 h-11" />
+                    <img src="/moon-icon.png" alt="MoonEX Logo" className="w-11 h-11 hidden md:block" />
                     <img className="w-80 h-20 pt-5" src="/moonex.png" alt="" />
                   </div>
                   <VerticalLine className="absolute right-0 top-0 h-full" />
