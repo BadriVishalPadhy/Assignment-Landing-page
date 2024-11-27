@@ -5,7 +5,7 @@ import { Orbits } from './Orbits'
 
 export const HeroSection: FC = () => {
   return (
-    <section className="relative min-h-screen pt-20 md:pt-80 overflow-hidden font-machina bg-[url('/public/background.png')] flex flex-col justify-center items-center md:block">
+    <section className="relative  min-h-screen pt-20 md:pt-80 overflow-hidden font-machina bg-[url('/public/background.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center md:block">
       <Orbits />
       
       {/* Main sphere - hidden on mobile */}
