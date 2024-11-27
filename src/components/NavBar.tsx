@@ -11,7 +11,7 @@ export const NavBar: FC = () => {
   }
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/10 ">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/10 font-title font-extrabold">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center ">
@@ -19,7 +19,7 @@ export const NavBar: FC = () => {
             <img className="w-44 h-11 pt-3" src="/moonex.png" alt="" />
           </div>
 
-          <div className="hidden md:flex items-center space-x-24 text-lg font-semibold">
+          <div className="hidden md:flex items-center space-x-20 text-lg font-semibold">
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">Home</a>
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">About Us</a>
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">Roadmap</a>
@@ -28,7 +28,7 @@ export const NavBar: FC = () => {
           </div>
 
           <div className="hidden md:block">
-          <Button className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-200 text-black hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-500 transition-all duration-300 px-6 py-6">
+          <Button className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-200 text-black hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-500 transition-all duration-300 px-6 py-6 font-extrabold">
               Connect Wallet
             </Button>
           </div>
