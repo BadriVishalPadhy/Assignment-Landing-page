@@ -53,7 +53,7 @@ export const FaqSection: FC = () => {
                 >
                   <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-white/5 transition-colors">
                     <span className="text-lg font-normal">{faq.question}</span>
-                    <Plus className="h-6 w-6 shrink-0 transition-transform duration-200" />
+                    
                   </AccordionTrigger>
                   <AccordionContent className="px-6 pb-4">
                     <p className="text-gray-400">{faq.answer}</p>
